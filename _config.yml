@@ -2,7 +2,7 @@ title: Masih's Blog # Shown in header on pages with full_logo: true
 short_logo: MS. # Shown in header on all pages by default unless full_logo: true is set
 description: > # The description for your site
   A 
-url: "masihsultani.github.io" # Site base URL
+# url: "masihsultani.github.io" # Site base URL
 
 author:
   name: Masih Sultani
