@@ -1,45 +1,33 @@
-- name: Project One # Project name, also used as heading
+- name: Kaggle Melanoma # Project name, also used as heading
   id: p1 # Project id, must be unique amongst the projects
-  img_src: /assets/img/connectpie-page.png # Optional image
-  description_less: This part of the project description is visible at all times. # Description shown at all times, text only
+  img_src: /assets/img/melanoma.png # Optional image
+  description_less: Kaggle Project using CNN's to detect melanoma # Description shown at all times, text only
   description_more: > # Description shown only when the project card is expanded, HTML only
-    <p>This part is only seen when you click on the project card.</p> 
+    <p>Applied transfer learning to CNN’s to identify melanoma in lesion images with roc-auc score of 0.91 and achieved a top 20%
+    position out of 1000+ teams.</p> 
   action_buttons: > # Action buttons for project, HTML only
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-  tags: [tag1, tag2] # A list of tags
+    <a href="https://github.com/masihsultani/MelanomaKaggle" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+  # tags: [tag1, tag2] # A list of tags
 
-- name: Pudina Fresh Jekyll Theme
+- name: Attention Entropy of Transformer Models
   id: pf
-  img_src: 
-  description_less: A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
+  img_src: /assets/img/attentionEntropy.png
+  description_less: Inner working of attention in transformers
   description_more: >
-    <p>This site uses Pudhina Fresh theme.</p>
+    <p>Independent research project to investigate the inner workings of Transformer Language Models and role of information theory in
+    language and language models.</p>
   action_buttons: >
-    <a href="https://github.com/ritijjain/pudhina-fresh" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
-    <a href="https://ritijjain.com/2020/09/12/pudhina-fresh.html" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-  tags: [jekyll, open-source]
+    <a href="https://github.com/masihsultani/AttentionEntropy" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+  # tags: [jekyll, open-source]
 
-- name: Project Two
+- name: Anomaly Detection of Pollution Data
   id: p2
-  img_src: 
-  description_less: Refer to docs to learn how to add your own projects.
+  img_src: /assets/img/AnomalyDetection.png
+  description_less: Detecting anomalies in pollution data using fourier transform and KDE
   description_more: >
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Investigated time series pollution data to detect and classify anomalies as “System fault” or “External event” for . Analyzed
+    frequency spectrum via Fourier transform to detect System fault anomalies. Applied probabilistic modelling to detect external event anomalies using Kernel Density Estimation.</p>
   action_buttons: >
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-  tags: [tag3, docs]
+    <a href="https://github.com/masihsultani/AnomalyDetection" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
+  # tags: [tag3, docs]
 
-- name: Project Three
-  id: p3
-  img_src: /assets/img/weatherpie-page.png
-  description_less: Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam.
-  description_more: >
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-  action_buttons: >
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-link"></i> &nbsp View Project</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-code-branch"></i> &nbsp Repository</a>
-    <a href="#" target="_blank" class="btn btn-dark mb-1"><i class="fas fa-align-right"></i> &nbsp Blog Post</a>
-  tags: [tag2, tag4]
