@@ -2,8 +2,7 @@
 layout: post
 title:  'Rethinking Correlation, Part 1 : Variance is Cross Entropy'
 date:   2021-04-01
-splash_img_source: /assets/img/traffic-332857_1920.jpg
-splash_img_caption: Representative image. Image by <a href="https://pixabay.com/users/jonbonsilver-236141/">jonbonsilver</a> on Pixabay.
+splash_img_source: /assets/img/posts/variance_1/gaussian.png
 ---
 In this 3 part blog post, I would like to show a new way of looking at correlation/covariance. While [Rodgers](https://www.stat.berkeley.edu/~rabbee/correlation.pdf) already provides us with 13 different ways to look at correlation, I would like to show that correlation can also be viewed as cross entropy.
 
@@ -33,4 +32,4 @@ When $p=q$, variance is equal to Entropy plus or minus some constants!
 
 Cross entropy is used to measure the similarity between 2 distributions. It is commonly used in machine learning when fitting a parametrized distribution to some data. To compute the "spread" of a distribution, Entropy is a better measure. Variance can be a good proxy when you don't know the true distribution $p(x)$ and you have good reason to believe the distribution can be well approximated with a standard normal distribution. Otherwise variance doesn't make sense for distributions that are not well approximated via a normal distribution. 
 
-To summarize, if you want to measure the spread of some data, use Entropy. Variance is a special case of Entropy, it is the cross entropy of a standard normal with the true distribution. When you use variance, you are making the assumption that a standard normal distribution can be a good estimate for the true distribution. 
+To summarize, if you want to measure the spread of some distribution or data, use Entropy. Variance is a special case of Entropy, it is the cross entropy of a standard normal with the true distribution. When you use variance, you are making the assumption that a standard normal distribution can be a good estimate for the true distribution. 
